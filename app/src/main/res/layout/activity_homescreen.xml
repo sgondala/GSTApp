@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/ShowBillsButton"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="183dp"
+        android:text="@string/ShowBills"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/AddBillButton"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="@string/AddBill"
+        android:layout_below="@+id/ShowBillsButton"
+        android:layout_alignLeft="@+id/ShowBillsButton"
+        android:layout_alignStart="@+id/ShowBillsButton" />
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+</RelativeLayout>

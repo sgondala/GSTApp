@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GST App</string>
+    <string name="AddItem">Add Item</string>
+    <string name="ItemName">Item Name</string>
+    <string name="ItemPrice">Item Price</string>
+    <string name="ItemCategory">Item Category</string>
+    <string name="ShowBills">Show Bills</string>
+    <string name="AddBill">Add Bill</string>
+</resources>
